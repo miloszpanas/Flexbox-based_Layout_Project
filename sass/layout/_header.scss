@@ -1,0 +1,10 @@
+.header {
+    font-size: 1.4rem; //22.4px
+    height: 7rem;
+    background-color: var(--color-white);
+    border-bottom: var(--color-grey-light-1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
