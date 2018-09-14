@@ -1,0 +1,9 @@
+@mixin iconSize-small {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+@mixin iconSize-medium {
+    height: 2.25rem;
+    width: 2.25rem;
+}

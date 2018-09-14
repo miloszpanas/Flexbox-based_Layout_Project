@@ -91,8 +91,7 @@
     }
 
     &__icon {
-        height: 2.25rem;
-        width: 2.25rem;
+        @include iconSize-medium;
         fill: var(--color-grey-dark-2);
     }
 
@@ -183,8 +182,7 @@
     }
 
     &__icon {
-        width: 1.75rem;
-        height: 1.75rem;
+        @include iconSize-small;
         margin-right: 2rem;
         fill: currentColor;
     }
@@ -201,6 +199,63 @@
     padding: 2.5rem;
 }
 
+
+///////////////////////////////////////////////////
+// GALLERY
+
+.gallery {
+    display: flex;
+
+    &__item {
+
+    }
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+///////////////////////////////////////////////////
+// HOTEL OVERVIEW
+
+.overview {
+    display: flex;
+    
+
+    &__heading {
+
+    }
+    
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        @include iconSize-small;
+        fill: var(--color-primary);
+    }
+
+    &__location {
+        
+    }
+
+    &__rating {
+
+    }
+
+    &__rating-average {
+
+    }
+
+    &__rating-count {
+
+    }
+
+
+}
 
 
 
